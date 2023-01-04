@@ -1,0 +1,68 @@
+{
+  "name": "olcs/olcs-laminas",
+  "description": "List of olcs laminas dependencies that are common across all repos",
+  "repositories": [
+    {
+      "packagist": false
+    },
+    {
+      "url": "https://nexus.olcs.dev-dvsacloud.uk/repository/OLCS",
+      "type": "composer"
+    },
+    {
+      "url": "https://nexus.olcs.dev-dvsacloud.uk/repository/Packagist-Proxy",
+      "type": "composer"
+    }
+  ],
+  "require": {
+    "laminas/laminas-authentication": "^2.5",
+    "laminas/laminas-cache": "^2.5",
+    "laminas/laminas-code": "~3.4.1",
+    "laminas/laminas-console": "^2.5",
+    "laminas/laminas-crypt": "^3.0",
+    "laminas/laminas-dependency-plugin": "^2.0",
+    "laminas/laminas-escaper": "^2.5",
+    "laminas/laminas-eventmanager": "^2.5",
+    "laminas/laminas-filter": "^2.5",
+    "laminas/laminas-form": "^2.5",
+    "laminas/laminas-http": "^2.5",
+    "laminas/laminas-i18n": "^2.5",
+    "laminas/laminas-inputfilter": "^2.5",
+    "laminas/laminas-json": "^2.5",
+    "laminas/laminas-loader": "^2.5",
+    "laminas/laminas-log": "^2.5",
+    "laminas/laminas-mail": "^2.5",
+    "laminas/laminas-math": "^3.0",
+    "laminas/laminas-mime": "^2.5",
+    "laminas/laminas-modulemanager": "^2.5",
+    "laminas/laminas-mvc": "^2.5",
+    "laminas/laminas-navigation": "<=2.13.0",
+    "laminas/laminas-serializer": "^2.5",
+    "laminas/laminas-servicemanager": "^2.5",
+    "laminas/laminas-session": "^2.5",
+    "laminas/laminas-stdlib": "^2.5",
+    "laminas/laminas-text": "^2.5",
+    "laminas/laminas-uri": "^2.5",
+    "laminas/laminas-validator": "^2.5",
+    "laminas/laminas-view": "^2.5",
+    "laminas/laminas-xml": "^1.2.0",
+    "lm-commons/lmc-rbac-mvc": "^2.6"
+  },
+  "config": {
+    "secure-http": false,
+    "platform": {
+      "php": "7.4"
+    },
+    "sort-packages": true,
+    "allow-plugins": {
+      "laminas/laminas-dependency-plugin": true,
+      "elendev/composer-push": true,
+      "phpstan/extension-installer": true
+    }
+  },
+  "extra": {
+    "nexus-push": {
+      "url": "https://nexus.olcs.dev-dvsacloud.uk/repository/olcs-laminas"
+    }
+  }
+}
