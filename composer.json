@@ -48,6 +48,11 @@
     "laminas/laminas-xml": "^1.2.0",
     "lm-commons/lmc-rbac-mvc": "^2.6"
   },
+  "require-dev": {
+    "elendev/composer-push": "1.0.3",
+    "san/san-session-toolbar": "*",
+    "laminas/laminas-developer-tools": "*"
+  },
   "config": {
     "secure-http": false,
     "platform": {
@@ -56,6 +61,7 @@
     "sort-packages": true,
     "allow-plugins": {
       "laminas/laminas-dependency-plugin": true,
+      "laminas/laminas-component-installer": true,
       "elendev/composer-push": true,
       "phpstan/extension-installer": true
     }
