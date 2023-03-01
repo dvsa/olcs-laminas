@@ -37,6 +37,8 @@
     "laminas/laminas-mime": "^2.5",
     "laminas/laminas-modulemanager": "^2.5",
     "laminas/laminas-mvc": "^3",
+    "laminas/laminas-mvc-plugin-flashmessenger": "^1",
+    "laminas/laminas-mvc-plugin-prg": "^1",
     "laminas/laminas-navigation": "<=2.13.0",
     "laminas/laminas-serializer": "^2.5",
     "laminas/laminas-servicemanager": "^3",
@@ -52,6 +54,7 @@
   "require-dev": {
     "elendev/composer-push": "1.0.3",
     "san/san-session-toolbar": "*",
+    "laminas/laminas-component-installer": "^3",
     "laminas/laminas-developer-tools": "*"
   },
   "config": {
